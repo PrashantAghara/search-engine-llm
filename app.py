@@ -12,7 +12,6 @@ from langchain_classic.agents import initialize_agent, AgentType
 from langchain_classic.callbacks import StreamlitCallbackHandler
 
 load_dotenv()
-os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN")
 
 # Tools
 wiki = WikipediaQueryRun(
